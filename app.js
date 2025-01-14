@@ -13,5 +13,5 @@ app.use('/api', corsRoutes);
 
 // Khởi chạy server
 app.listen(PORT, () => {
-  console.log(`Server đang chạy tại http://localhost:${3000}`);
+  console.log(`Server đang chạy tại http://localhost:${PORT}`);
 });
